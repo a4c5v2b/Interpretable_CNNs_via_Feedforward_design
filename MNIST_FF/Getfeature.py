@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import data
 import saab
-import keras
+#import keras
 import sklearn
 
 def main():
@@ -18,8 +18,8 @@ def main():
 	
 	# Training
 	print('--------Training--------')
-	feature=saab.initialize(train_images, pca_params) 
-	feature=feature.reshape(feature.shape[0],-1)
+	feature=saab.initialize(train_images, pca_params)  # (60000, 5, 5, 16)
+	feature=feature.reshape(feature.shape[0],-1) # (60000, 400)
 	print("S4 shape:", feature.shape)
 	print('--------Finish Feature Extraction subnet--------')
 	feat={}

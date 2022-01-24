@@ -3,6 +3,7 @@ import pickle
 import data
 import saab
 
+
 flags.DEFINE_string("output_path", None, "The output dir to save params")
 flags.DEFINE_string("use_classes", "0-9", "Supported format: 0,1,5-9")
 flags.DEFINE_string("kernel_sizes", "5,5", "Kernels size for each stage. Format: '3,3'")
@@ -14,8 +15,8 @@ FLAGS = flags.FLAGS
 def main():
 	# read data
     train_images, train_labels, test_images, test_labels, class_list = data.import_data(FLAGS.use_classes)
-    print('Training image size:', train_images.shape) # (60000, 32, 32, 1)
-    print('Testing_image size:', test_images.shape) # (10000, 32, 32, 1)
+    print('Training image size:', train_images.shape)
+    print('Testing_image size:', test_images.shape)
 
     kernel_sizes=saab.parse_list_string(FLAGS.kernel_sizes)
     if FLAGS.num_kernels:
@@ -38,12 +39,12 @@ def main():
     	                 use_num_images=use_num_images,
     	                 use_classes=class_list)
     # save data
-    fw=open('pca_params.pkl','wb')    
-    pickle.dump(pca_params, fw)    
+    fw=open('pca_params.pkl','wb')
+    pickle.dump(pca_params, fw)
     fw.close()
 
     # load data
-    fr=open('pca_params.pkl','rb')  
+    fr=open('pca_params.pkl','rb')
     data1=pickle.load(fr)
     print(data1)
     fr.close()

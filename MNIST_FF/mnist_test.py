@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import sklearn
 import cv2
-import keras
+#import keras
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from numpy import linalg as LA

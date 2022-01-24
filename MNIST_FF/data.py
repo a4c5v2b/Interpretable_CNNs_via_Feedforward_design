@@ -1,5 +1,4 @@
-import keras
-from keras.datasets import mnist
+from tensorflow.keras.datasets import mnist
 import numpy as np
 import saab
 
@@ -26,7 +25,7 @@ def import_data(use_classes):
 	# print(train_images.shape) # 60000*32*32*1
 
 	if use_classes!='0-9':
-		class_list=saab.parse_list_string(use_classes)
+		class_list=saab.parse_list_string(use_classes) # return classes list (e.g.: [0, 1, 2, 3, 4, 5, 6, 7, 8])
 		train_images, train_labels=get_data_for_class(train_images, train_labels, class_list)
 		test_images, test_labels=get_data_for_class(test_images, test_labels, class_list)
 		# print(class_list)
