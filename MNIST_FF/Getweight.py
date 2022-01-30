@@ -13,7 +13,7 @@ from sklearn.metrics.pairwise import euclidean_distances
 
 def main():
 	# load data
-	fr=open('D:\Codework\Interpretable_CNNs_via_Feedforward_design(Official)\MNIST_FF\pca_params.pkl','rb')
+	fr=open('pca_params.pkl','rb')
 	pca_params=pickle.load(fr, encoding='latin')
 	fr.close()
 
@@ -23,7 +23,7 @@ def main():
 	print('Testing_image size:', test_images.shape) # (10000, 32, 32, 1)
 
 	# load feature
-	fr=open(r'D:\Codework\Interpretable_CNNs_via_Feedforward_design(Official)\MNIST_FF\feat.pkl','rb')
+	fr=open('feat.pkl','rb')
 	feat=pickle.load(fr, encoding='latin')
 	fr.close()
 	feature=feat['feature']
