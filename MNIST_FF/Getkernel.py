@@ -8,7 +8,7 @@ flags.DEFINE_string("use_classes", "0-9", "Supported format: 0,1,5-9")
 flags.DEFINE_string("kernel_sizes", "5,5", "Kernels size for each stage. Format: '3,3'")
 flags.DEFINE_string("num_kernels", "5,15", "Num of kernels for each stage. Format: '4,10'")
 flags.DEFINE_float("energy_percent", None, "Energy to be preserved in each stage")
-flags.DEFINE_integer("use_num_images", -1, "Num of images used for training")
+flags.DEFINE_integer("use_num_images", 10000, "Num of images used for training")
 FLAGS = flags.FLAGS
 
 def main():

@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764ae9b7-9b64-4c88-9c93-10c96f832edd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MNIST_FF/trace_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Interpretable_CNNs_via_Feedforward_design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Interpretable_CNNs_via_Feedforward_design.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_FF/Getfeature.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/Getfeature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MNIST_FF/Getkernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/Getkernel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_FF/Getweight.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/Getweight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_FF/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MNIST_FF/llsr_bias.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/llsr_bias.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MNIST_FF/llsr_weights.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/llsr_weights.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_FF/mnist_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/mnist_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MNIST_FF/pca_params.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MNIST_FF/saab.py" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_FF/saab.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,8 +122,8 @@
       <list>
         <item itemvalue="Python.mnist_test" />
         <item itemvalue="Python.Getweight" />
-        <item itemvalue="Python.Getkernel" />
         <item itemvalue="Python.Getfeature" />
+        <item itemvalue="Python.Getkernel" />
       </list>
     </recent_temporary>
   </component>
@@ -148,22 +141,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom" timestamp="1642758304163">
+    <state x="689" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643552645637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642758304163" />
-    <state width="1899" height="213" key="GridCell.Tab.0.center" timestamp="1642758304163">
+    <state x="689" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1643552645637" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643477162197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642758304163" />
-    <state width="1899" height="213" key="GridCell.Tab.0.left" timestamp="1642758304163">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643477162197" />
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom" timestamp="1643552946673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642758304163" />
-    <state width="1899" height="213" key="GridCell.Tab.0.right" timestamp="1642758304163">
+    <state width="1899" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1643552946673" />
+    <state width="1899" height="210" key="GridCell.Tab.0.center" timestamp="1643552946673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="213" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642758304163" />
+    <state width="1899" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1643552946673" />
+    <state width="1899" height="210" key="GridCell.Tab.0.left" timestamp="1643552946673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1643552946673" />
+    <state width="1899" height="210" key="GridCell.Tab.0.right" timestamp="1643552946673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1643552946673" />
+    <state width="1899" height="333" key="GridCell.Tab.1.bottom" timestamp="1643552214116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1643552214116" />
+    <state width="1899" height="333" key="GridCell.Tab.1.center" timestamp="1643552214116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1643552214116" />
+    <state width="1899" height="333" key="GridCell.Tab.1.left" timestamp="1643552214116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1643552214116" />
+    <state width="1899" height="333" key="GridCell.Tab.1.right" timestamp="1643552214116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1643552214116" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1643002577357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1643002577357" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +193,11 @@
           <url>file://$PROJECT_DIR$/MNIST_FF/Getweight.py</url>
           <line>161</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MNIST_FF/Getkernel.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
